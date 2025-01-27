@@ -6,20 +6,27 @@ using DG.Tweening;
 public class StackCollectPlayer : StackCollect
 {
     public PlayerController _playerController;
-
+    bool stackActive = true;
     public override void StackAnimation()
     {
         //_playerController.animator.SetBool("carry", true);
-
-        StackIkPosSet(leftIkTarget, leftProductTarget, true);
-        StackIkPosSet(rightIkTarget, rightProductTarget, true);
+        if (!stackActive)
+        {
+            stackActive = true;
+            StackIkPosSet(leftIkTarget, leftProductTarget, true);
+            StackIkPosSet(rightIkTarget, rightProductTarget, true);
+        }
     }
 
     public override void StackEmptyAnimation()
     {
         //_playerController.animator.SetBool("carry", false);
-        StackIkPosSet(leftIkTarget, leftNullTarget, false);
-        StackIkPosSet(rightIkTarget, rightNullTarget, false);
+        if (stackActive)
+        {
+            stackActive = false;
+            StackIkPosSet(leftIkTarget, leftNullTarget, false);
+            StackIkPosSet(rightIkTarget, rightNullTarget, false);
+        }
     }
 
     public override float StackFollowSpeed()

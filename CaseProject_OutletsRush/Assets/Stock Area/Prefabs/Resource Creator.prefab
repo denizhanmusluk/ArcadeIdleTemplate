@@ -699,7 +699,7 @@ GameObject:
   - component: {fileID: 1467469938039608378}
   - component: {fileID: 5418037857187723248}
   - component: {fileID: 8126127688303318158}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Resource Creator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2940,6 +2940,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ProductCollecting 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217887249767065981, guid: 19aaaf610159ba64e8a6ee3a0474cb03,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5217887249767065981, guid: 19aaaf610159ba64e8a6ee3a0474cb03,
         type: 3}

@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 2944054864285435118}
   - component: {fileID: 2944054864285435113}
   - component: {fileID: 7634585790144952165}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stand HeadPhone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

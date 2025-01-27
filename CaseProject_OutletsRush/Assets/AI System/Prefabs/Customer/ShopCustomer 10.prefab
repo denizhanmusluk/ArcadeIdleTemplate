@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6019483971528133242}
   - component: {fileID: 7376531311525116439}
   - component: {fileID: 7687777560763371496}
-  m_Layer: 14
+  m_Layer: 0
   m_Name: ShopCustomer 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,6 @@ MonoBehaviour:
   collectAreaTarget: []
   currentTarget: {fileID: 0}
   shoppingActive: 1
-  paymentActive: 1
 --- !u!195 &7376531311525116439
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -191,7 +190,7 @@ GameObject:
   - component: {fileID: 4669900839954856320}
   - component: {fileID: 5331639275519656826}
   - component: {fileID: 699985184826352350}
-  m_Layer: 14
+  m_Layer: 3
   m_Name: StackCollect
   m_TagString: Untagged
   m_Icon: {fileID: 0}

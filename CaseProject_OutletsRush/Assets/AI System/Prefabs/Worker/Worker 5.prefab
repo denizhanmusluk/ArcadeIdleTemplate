@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9078576986380671738}
   - component: {fileID: 8036714798734128974}
   - component: {fileID: 7174896031104099319}
-  m_Layer: 14
+  m_Layer: 3
   m_Name: StackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,19 +412,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiMoving: {fileID: 8277294994267434996}
-  aImoveSpeed: 0
   aiStackCollect: {fileID: 8036714798734128974}
   animator: {fileID: 1765480874915332249}
   followActive: 0
+  aiDropActive: 1
+  aiStackActive: 0
   workArea: {fileID: 0}
   targetStand: {fileID: 0}
   collectAreaTarget: {fileID: 0}
-  workerLevelName: worker
-  elArabasi: {fileID: 0}
-  forklift: {fileID: 0}
-  aiDropActive: 1
-  aiStackActive: 0
-  sellingWorker: 0
 --- !u!195 &2761809186523911982
 NavMeshAgent:
   m_ObjectHideFlags: 0

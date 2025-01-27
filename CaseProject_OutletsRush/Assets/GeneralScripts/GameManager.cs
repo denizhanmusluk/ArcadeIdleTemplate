@@ -18,6 +18,7 @@ public class GameManager : Singleton<GameManager>
     private void InitializeGame()
     {
         _timeScale = Time.timeScale;
+        Application.targetFrameRate = 60;
         Globals.moneyAmount = PlayerPrefs.GetInt("money");
         InitConnections();
     }
